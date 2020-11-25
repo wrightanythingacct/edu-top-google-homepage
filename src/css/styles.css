@@ -1,5 +1,5 @@
 .square-icon{
-    background-image: url(./resources/i1_1967ca6a.png);
+    background-image: url(../resources/i1_1967ca6a.png);
     background-position: -132px -38px;
     min-width: 75px;
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -10,6 +10,15 @@
     margin-top: 100px;
 }
 
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar li{
+    list-style: none;
+    margin: 4px;
+}
 
 input {
     width: 40%;
