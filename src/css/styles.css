@@ -10,13 +10,14 @@ a {
 
 .blue-button{
     color: white;
-    background: #4486F8;
+    background: #3E77D8;
     display: inline-block;
-    width: 64px;
+    width: 71px;
     height: 32px;
     vertical-align: middle;
     text-align: center;
     line-height: 33px;
+    font-weight: bold;
 }
 
 .square-icon{
@@ -26,7 +27,7 @@ a {
     height: 30px;
     box-sizing: border-box;
     display: inline-block;
-    background-position: -133px -36px;
+    background-position: -127px -36px;
     opacity: .85;
     color: #000;
     cursor: pointer;
@@ -41,16 +42,17 @@ a {
 .navbar ul{
     display: flex;
     justify-content: flex-end;
-    margin: 24px;
-    opacity: .85;
+    margin: 12px;
+    opacity: .95;
     font-size: 13px;
     align-items: center;
+    margin-right: 37px;       
 }
 
 .navbar li{
-    
     list-style: none;
     margin: 4px;
+    margin-right: 10px;
     display: inline-block;
 }
 
