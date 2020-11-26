@@ -42,6 +42,7 @@ a {
 .navbar li{
     list-style: none;
     margin: 4px;
+    display: inline-block;
 }
 
 input {
