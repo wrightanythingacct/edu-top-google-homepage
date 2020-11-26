@@ -1,18 +1,22 @@
+a,p{
+    font-family: arial,sans-serif;
+    color: rgba(0,0,0,0.87)
+}
+
+
 a {
-    color: #212121;
     text-decoration: none;
 }
 
 .blue-button{
     color: white;
-    background: #4585F2;
-    display: inline;
-    width: 69px;
-    height: 37px;
+    background: #4486F8;
+    display: inline-block;
+    width: 64px;
+    height: 32px;
     vertical-align: middle;
     text-align: center;
-    text-indent: 2px;
-    line-height: 30px;
+    line-height: 33px;
 }
 
 .square-icon{
@@ -22,7 +26,7 @@ a {
     height: 30px;
     box-sizing: border-box;
     display: inline-block;
-    background-position: -132px -38px;
+    background-position: -133px -36px;
     opacity: .85;
     color: #000;
     cursor: pointer;
@@ -37,9 +41,14 @@ a {
 .navbar ul{
     display: flex;
     justify-content: flex-end;
+    margin: 24px;
+    opacity: .85;
+    font-size: 13px;
+    align-items: center;
 }
 
 .navbar li{
+    
     list-style: none;
     margin: 4px;
     display: inline-block;
