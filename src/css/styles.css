@@ -1,9 +1,25 @@
+a {
+    color: #212121;
+    text-decoration: none;
+}
+
+.blue-button{
+    color: white;
+    background: #4585F2;
+    display: inline;
+    width: 69px;
+    height: 37px;
+    vertical-align: middle;
+    text-align: center;
+    text-indent: 2px;
+    line-height: 30px;
+}
+
 .square-icon{
     background-image: url(../resources/i1_1967ca6a.png);
     background-position: -132px -38px;
     min-width: 75px;
     background-repeat: no-repeat; /* Do not repeat the image */
-    
 }
 .main-app{
     text-align: center;
