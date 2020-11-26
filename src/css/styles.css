@@ -17,8 +17,16 @@ a {
 
 .square-icon{
     background-image: url(../resources/i1_1967ca6a.png);
+    background-size: 528px 68px;
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    display: inline-block;
     background-position: -132px -38px;
-    min-width: 75px;
+    opacity: .85;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
     background-repeat: no-repeat; /* Do not repeat the image */
 }
 .main-app{
