@@ -13,6 +13,10 @@ a {
     margin-bottom: 24px;
 }
 
+#search-bar{
+    width: 590px;
+    height: 43px;
+}
 
 .blue-button{
     color: white;
