@@ -1,59 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google</title>
-    <link rel="icon" href="./favicon.ico">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
     <nav class="navbar">
-        <ul>
-            <li><a href="">Gmail</a></li>
-            <li><a href="">Images</a></li>
-            <li><a href="" class="square-icon"></a></li>
-            <li><a href="" class="blue-button">Sign in</a></li>
-        </ul>
+      <ul>
+        <li><a href="">Gmail</a></li>
+        <li><a href="">Images</a></li>
+        <li><a href="" class="square-icon"></a></li>
+        <li><a href="" class="blue-button">Sign in</a></li>
+      </ul>
     </nav>
 
     <div class="main-app">
-        <img id="main-logo" src="resources/googlelogo_color_272x92dp.png">
+      <img id="main-logo" src="resources/googlelogo_color_272x92dp.png" />
+      <div>
+        <svg
+          focusable="false"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+          ></path>
+        </svg>
+        <input type="search" id="search-bar" />
+      </div>
+      <div>
         <div>
-            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
-            <input type="search" id="search-bar">
+          <button>Google Search</button>
+          <button>I'm Feeling Lucky</button>
         </div>
-        <div>
-            <div>
-                <button>Google Search</button>
-                <button>I'm Feeling Lucky</button>
-            </div>
-            <!-- TODO I was thinking I could play with JS here so it changes all text to I'm groot -->
-            <span>Google offered in: <a>Groot</a></span>
-        </div>
+        <!-- TODO I was thinking I could play with JS here so it changes all text to I'm groot -->
+        <span>Google offered in: <a>Groot</a></span>
+      </div>
     </div>
 
     <footer>
-        <div>
-            <span>Somewhere in the world</span>
-        </div>
-        <hr>
-        <nav>
-            <ul>
-                <div>
-                    <li><a>Advertising</a></li>
-                    <li><a>Business</a></li>
-                    <li><a>About</a></li>
-                    <li><a>How Search works</a></li>
-                </div>
-                <div>
-                    <li><a>Privacy</a></li>
-                    <li><a>Terms</a></li>
-                    <li><a>Settings</a></li>
-                </div>
-            </ul>
-        </nav>
+      <div>
+        <span>Somewhere in the world</span>
+      </div>
+      <hr />
+      <nav>
+        <ul>
+          <div>
+            <li><a>Advertising</a></li>
+            <li><a>Business</a></li>
+            <li><a>About</a></li>
+            <li><a>How Search works</a></li>
+          </div>
+          <div>
+            <li><a>Privacy</a></li>
+            <li><a>Terms</a></li>
+            <li><a>Settings</a></li>
+          </div>
+        </ul>
+      </nav>
     </footer>
-</body>
+  </body>
 </html>
