@@ -59,8 +59,13 @@ a {
   margin-right: 37px;
 }
 
-.navbar li {
+li {
   list-style: none;
+  /* TODO need to verify if this is correct for all li */
+  display: inline-block;
+}
+
+.navbar li {
   margin: 4px;
   margin-right: 10px;
   display: inline-block;
@@ -82,4 +87,29 @@ input {
 
 svg {
   width: 20px;
+}
+
+footer * {
+  background-color: #f2f2f2;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+  font-family: arial, sans-serif;
+}
+
+footer > div {
+  padding: 10px 0px 16px 10px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links {
+  border-top: 0.5px rgba(0, 0, 0, 0.14) solid;
+}
+
+.footer-links ul {
+  display: flex;
+  justify-content: space-between;
 }
