@@ -9,7 +9,7 @@ a {
   text-decoration: none;
 }
 
-a:hover:not(.blue-button) {
+a:hover:not(.blue-button):not(.square-icon) {
   text-decoration: underline;
 }
 
@@ -47,12 +47,17 @@ a:hover:not(.blue-button) {
   box-sizing: border-box;
   display: inline-block;
   background-position: -127px -36px;
-  opacity: 0.85;
+  opacity: 0.55;
   color: #000;
   cursor: pointer;
   text-decoration: none;
   background-repeat: no-repeat; /* Do not repeat the image */
 }
+
+.square-icon:hover {
+  opacity: 1;
+}
+
 .main-app {
   text-align: center;
   margin-top: 100px;
