@@ -10,3 +10,4 @@ There are also other [alternatives for extracting .ico.](https://stackoverflow.c
 - Made a good setup of extensions in VsCode, some of the most helpful for me in this project: [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens), [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) and [classNAme Completion in CSS](https://marketplace.visualstudio.com/items?itemName=zitup.classnametocss).
 - Odin Project recommends [Flexbox Froggy](https://flexboxfroggy.com/) and [Grid Garden](https://cssgridgarden.com/), and they're so worth it, I definitely recommend them too.
 - The standard for [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
+- [You cannot do css selector grouping for two child selectors with the same parent.](https://stackoverflow.com/questions/6192596/how-to-select-multiple-elements-that-are-children-of-given-element)
