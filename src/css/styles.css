@@ -35,6 +35,10 @@ a:hover:not(.blue-button) {
   font-weight: bold;
 }
 
+.blue-button:hover {
+  transform: scale(1.02);
+}
+
 .square-icon {
   background-image: url(../resources/i1_1967ca6a.png);
   background-size: 528px 68px;
