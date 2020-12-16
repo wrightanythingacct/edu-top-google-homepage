@@ -21,6 +21,8 @@ a:hover:not(.blue-button):not(.square-icon) {
 #search-bar {
   width: 590px;
   height: 43px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
 }
 
 .blue-button {
