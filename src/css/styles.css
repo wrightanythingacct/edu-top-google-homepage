@@ -1,8 +1,7 @@
-/* TODO need to change the colors to hex */
 a,
 p {
   font-family: arial, sans-serif;
-  color: rgba(0, 0, 0, 0.87);
+  color: #000000de;
 }
 
 a {
@@ -66,10 +65,8 @@ a:hover:not(.blue-button):not(.square-icon) {
   text-decoration: underline;
 }
 
-/* TODO Left here, what is the best way to separate the buttons? */
-
 .blue-button {
-  color: white;
+  color: #fff;
   background: #3e77d8;
   display: inline-block;
   width: 71px;
@@ -120,7 +117,6 @@ a:hover:not(.blue-button):not(.square-icon) {
 
 li {
   list-style: none;
-  /* TODO need to verify if this is correct for all li */
   display: inline-block;
 }
 
@@ -136,7 +132,7 @@ input {
   border: 2px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
-  background-color: white;
+  background-color: #fff;
   background-image: url("./resources/searchicon.png");
   background-position: 10px 10px;
   background-size: 20px;
