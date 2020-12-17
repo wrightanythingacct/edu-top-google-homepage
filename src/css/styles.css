@@ -53,6 +53,8 @@ a:hover:not(.blue-button):not(.square-icon) {
 
 #offered-language {
   font-size: 13px;
+  position: relative;
+  top: 19px;
 }
 
 #offered-language a {
@@ -62,6 +64,8 @@ a:hover:not(.blue-button):not(.square-icon) {
 #offered-language a:hover {
   text-decoration: underline;
 }
+
+/* TODO Left here, what is the best way to separate the buttons? */
 
 .blue-button {
   color: white;
@@ -91,7 +95,7 @@ a:hover:not(.blue-button):not(.square-icon) {
   color: #000;
   cursor: pointer;
   text-decoration: none;
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-repeat: no-repeat;
 }
 
 .square-icon:hover {
@@ -100,7 +104,7 @@ a:hover:not(.blue-button):not(.square-icon) {
 
 #main-app {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .navbar ul {
