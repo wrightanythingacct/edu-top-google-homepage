@@ -42,9 +42,10 @@ a:hover:not(.blue-button):not(.square-icon) {
   background-color: #f8f9fa;
   border: none;
   width: 135px;
-  height: 44px;
+  height: 34px;
   font-size: 13px;
-  border-radius: 11px;
+  border-radius: 4px;
+  margin: 4px;
 }
 
 #search-buttons button:hover {
