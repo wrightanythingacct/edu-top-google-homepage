@@ -26,6 +26,7 @@ a:hover:not(.blue-button):not(.square-icon) {
 }
 
 #search-bar {
+  font-style: 16px arial, sans-serif;
   width: 590px;
   height: 43px;
   border: 1px solid #ccc;
