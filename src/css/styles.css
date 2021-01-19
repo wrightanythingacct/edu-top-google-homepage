@@ -37,6 +37,11 @@ svg {
   width: 1.5rem;
 }
 
+/* TODO left here the svg is moving, need to verify way to keep it still */
+/* https://css-tricks.com/scale-svg/ */
+/* TODO need to find way to make the google image responsive 
+https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-srcset */
+
 #search-buttons {
   margin-top: 20px;
 }
