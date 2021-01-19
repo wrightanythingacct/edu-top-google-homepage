@@ -25,3 +25,4 @@ There are also other [alternatives for extracting .ico.](https://stackoverflow.c
   - But there's an advantage to em that
   em's are great because you set paddings, margins, borders, whatever to em, and then they all scale uniformly just by changing the font size of the item. This is great for buttons or headings where you don't want to redefine all the values every time you change a font size.
 - REms for everything else, paddings, font-sizes.
+- The value of the viewBox attribute for SVG elements, is a list of four numbers: min-x, min-y, width and height.
