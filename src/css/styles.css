@@ -20,25 +20,6 @@ a:hover:not(.blue-button):not(.square-icon) {
   margin-bottom: 24px;
 }
 
-#search-icon-container {
-  margin-left: 20px;
-  margin-right: auto;
-  width: 30px;
-}
-
-#search-icon-container span {
-  height: 20px;
-  width: 20px;
-  position: relative;
-}
-
-#search-icon {
-  position: relative;
-  left: 1.7rem;
-  top: 1.7rem;
-  opacity: 0.35;
-}
-
 #search-bar {
   font-style: 2rem, arial, sans-serif;
   width: 96%;

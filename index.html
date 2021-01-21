@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="src/css/styles.css" />
   </head>
   <body>
+    <!-- TODO need to use semantic elements -->
     <div id="main-app">
       <img id="main-logo" src="src/resources/googlelogo_color_272x92dp.png" />
-      <div>
-        <div id="search-icon-container">
+      <div class="main__searchbar">
+        <div class="searchbar__icon">
           <svg
             focusable="true"
             xmlns="http://www.w3.org/2000/svg"
@@ -24,12 +25,13 @@
             ></path>
           </svg>
         </div>
-
-        <input
-          type="search"
-          id="search-bar"
-          value="Hit Google Search if you want to see the Search Results Page"
-        />
+        <div class="searchbar__input">
+          <input
+            type="search"
+            id="search-bar"
+            value="Hit Google Search if you want to see the Search Results Page"
+          />
+        </div>
       </div>
     </div>
   </body>
