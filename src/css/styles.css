@@ -1,3 +1,6 @@
+/* TODO need to change IDs for classes using BEM 
+/* TODO compare with other code how to do fully responsive SVG */
+
 a,
 p {
   font-family: arial, sans-serif;
@@ -15,6 +18,18 @@ a:hover:not(.blue-button):not(.square-icon) {
 #main-logo {
   margin-top: 46px;
   margin-bottom: 24px;
+}
+
+#search-icon-container {
+  margin-left: 20px;
+  margin-right: auto;
+  width: 30px;
+}
+
+#search-icon-container span {
+  height: 20px;
+  width: 20px;
+  position: relative;
 }
 
 #search-icon {
