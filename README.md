@@ -14,6 +14,8 @@ There are also other [alternatives for extracting .ico.](https://stackoverflow.c
 - IDs should be used mostly when describing a large section of the page, usually combined with section or div element. For all other cases it's better to use classes as it makes selectors easier, also to prevent having multiple IDs which is forbidden and we should only use one ID.
 [StackOverFlow Reference 1](https://stackoverflow.com/questions/43074167/why-id-has-stronger-meaning-than-class-in-css-styling-even-if-declared-before-th)
 [StackOverFlow Reference 2](https://stackoverflow.com/questions/8084555/why-selecting-by-id-is-not-recommended-in-css)
+- [You can have the input be outside of the form element with the form attribute](https://stackoverflow.com/questions/7020659/submit-form-using-a-button-outside-the-form-tag/12567605#12567605)
+- [I modified the site to use BEM for improved readability and easier CSS](http://getbem.com/introduction/)
 
 ## Notes from Responsive design
 

@@ -1,6 +1,4 @@
-/* TODO need to change IDs for classes using BEM 
-/* TODO compare with other code how to do fully responsive SVG */
-
+/* TODO need to change IDs for classes using BEM */
 a,
 p {
   font-family: arial, sans-serif;
@@ -11,32 +9,39 @@ a {
   text-decoration: none;
 }
 
-a:hover:not(.blue-button):not(.square-icon) {
-  text-decoration: underline;
-}
-
-#main-logo {
-  margin-top: 46px;
-  margin-bottom: 24px;
-}
-
-#search-bar {
-  font-style: 2rem, arial, sans-serif;
-  width: 96%;
-  border: 1px solid #ccc;
-  border-radius: 50px;
-  padding-left: 3rem;
-}
-
-svg {
+.main__logo {
   display: block;
-  width: 1.5rem;
+  margin: 5rem auto 0 auto;
 }
 
-/* TODO left here the svg is moving, need to verify way to keep it still */
-/* https://css-tricks.com/scale-svg/ */
-/* TODO need to find way to make the google image responsive 
-https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/#using-srcset */
+.searchbar__control {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  padding: 0.3rem 0.5rem 0 1rem;
+  max-width: 40rem;
+  align-items: center;
+  height: 2.5rem;
+  border: 1px solid #dadce0;
+  border-radius: 24px;
+}
+
+.searchbar__icon {
+  display: flex;
+  width: 1.25rem;
+  margin-top: -0.2rem;
+  margin-right: 0.5rem;
+  fill: #9aa0a6;
+}
+.searchbar__input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  font-size: 1rem;
+  margin-top: -0.1rem;
+  color: #101010;
+}
 
 #search-buttons {
   margin-top: 20px;
