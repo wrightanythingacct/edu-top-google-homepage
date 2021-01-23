@@ -1,4 +1,7 @@
 /* TODO need to change IDs for classes using BEM */
+a {
+  text-decoration: none;
+}
 
 .main__logo {
   display: block;
@@ -47,7 +50,6 @@
 }
 .searchbar__offered-language a {
   color: #1967d2;
-  text-decoration: none;
 }
 
 /* TODO need to check if 900 px is enough for mobile design */
@@ -57,37 +59,27 @@
   }
 }
 
-#search-buttons {
-  margin-top: 20px;
+.nav__options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
 }
 
-#search-buttons button {
-  background-color: #f8f9fa;
-  border: none;
-  width: 135px;
-  height: 34px;
-  font-size: 13px;
-  border-radius: 4px;
-  margin: 4px;
-}
-
-#search-buttons button:hover {
-  box-shadow: inset 0 0 3px #cacaca;
-  cursor: pointer;
-}
-
-#offered-language {
-  font-size: 13px;
+.item__button--semivisible-blue-highlight {
+  margin: 0 0.5rem 0 0.8rem;
   position: relative;
-  top: 19px;
+  padding-bottom: 1rem;
+  bottom: 0.4rem;
+  color: #70757a;
+  font-size: 0.75rem;
+  font-family: Roboto, HelveticaNeue, Arial, sans-serif;
+  font-weight: 600;
 }
 
-#offered-language a {
-  color: #1a0dab;
-}
-
-#offered-language a:hover {
-  text-decoration: underline;
+.item__button--semivisible-blue-highlight:hover {
+  color: #4285f4;
+  border-bottom: 2px solid #4285f4;
 }
 
 .blue-button {
@@ -106,7 +98,7 @@
   transform: scale(1.02);
 }
 
-.square-icon {
+.item__icon--square {
   background-image: url(../resources/i1_1967ca6a.png);
   background-size: 528px 68px;
   width: 30px;
@@ -130,73 +122,12 @@
   margin-top: 4rem;
 }
 
-.navbar ul {
-  display: flex;
-  justify-content: flex-end;
-  margin: 12px;
-  opacity: 0.95;
-  font-size: 13px;
-  align-items: center;
-  margin-right: 37px;
-}
-
 li {
   list-style: none;
   display: inline-block;
 }
 
-.navbar li {
-  margin: 4px;
-  margin-right: 10px;
-  display: inline-block;
-}
-
-input {
-  width: 40%;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 1.1rem;
-  background-color: #fff;
-  padding: 0.4em 1em 0.4em 0;
-}
-
-footer {
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  background-color: #f2f2f2;
-}
-
-footer span,
-footer a {
-  font-size: 15px;
-  color: rgba(0, 0, 0, 0.54);
-  font-family: arial, sans-serif;
-}
-
-footer > div {
-  padding: 10px 50px 16px 21px;
-}
-
 ul {
   padding: 0;
   margin: 0;
-}
-
-#footer-links {
-  border-top: 0.5px rgba(0, 0, 0, 0.14) solid;
-}
-
-#footer-links ul {
-  display: flex;
-  justify-content: space-between;
-}
-
-#footer-info-1 li {
-  margin-right: 25px;
-}
-
-#footer-info-2 li {
-  margin-left: 25px;
 }
