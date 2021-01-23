@@ -1,17 +1,9 @@
 /* TODO need to change IDs for classes using BEM */
-a,
-p {
-  font-family: arial, sans-serif;
-  color: #000000de;
-}
-
-a {
-  text-decoration: none;
-}
 
 .main__logo {
   display: block;
-  margin: 5rem auto 0 auto;
+  width: 11rem;
+  margin: 2rem auto;
 }
 
 .searchbar__control {
@@ -41,6 +33,28 @@ a {
   font-size: 1rem;
   margin-top: -0.1rem;
   color: #101010;
+}
+
+.searchbar__options {
+  text-align: center;
+  padding-top: 2rem;
+}
+.searchbar__buttons {
+  display: none;
+}
+.searchbar__offered-language {
+  font-size: 0.8rem;
+}
+.searchbar__offered-language a {
+  color: #1967d2;
+  text-decoration: none;
+}
+
+/* TODO need to check if 900 px is enough for mobile design */
+@media (min-width: 900px) {
+  .searchbar__buttons {
+    display: block;
+  }
 }
 
 #search-buttons {
