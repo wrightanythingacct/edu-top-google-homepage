@@ -57,19 +57,26 @@ a {
   .searchbar__buttons {
     display: block;
   }
+  .item__button--blue:hover {
+    transform: scale(1.02);
+  }
 }
 
 .nav__options {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem;
+  margin: 0.4rem;
+  /* TODO left here need to realign in a more inherited way between the divs */
+}
+
+.nav__options--right {
 }
 
 .item__button--semivisible-blue-highlight {
   margin: 0 0.5rem 0 0.8rem;
   position: relative;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
   bottom: 0.4rem;
   color: #70757a;
   font-size: 0.75rem;
@@ -82,20 +89,16 @@ a {
   border-bottom: 2px solid #4285f4;
 }
 
-.blue-button {
+.item__button--blue {
+  padding-left: 0.6rem;
+  position: relative;
+  bottom: 0.5rem;
   color: #fff;
   background: #3e77d8;
   display: inline-block;
-  width: 71px;
-  height: 32px;
-  vertical-align: middle;
-  text-align: center;
-  line-height: 33px;
+  width: 100%;
+  line-height: 2rem;
   font-weight: bold;
-}
-
-.blue-button:hover {
-  transform: scale(1.02);
 }
 
 .item__icon--square {
