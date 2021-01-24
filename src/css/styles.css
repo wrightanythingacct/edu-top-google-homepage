@@ -2,6 +2,15 @@
 a {
   text-decoration: none;
 }
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
 
 .main__logo {
   display: block;
@@ -60,6 +69,9 @@ a {
   .item__button--blue:hover {
     transform: scale(1.02);
   }
+  .square-icon:hover {
+    opacity: 1;
+  }
 }
 
 .nav__options {
@@ -67,17 +79,13 @@ a {
   justify-content: space-between;
   align-items: center;
   margin: 0.4rem;
-  /* TODO left here need to realign in a more inherited way between the divs */
-}
-
-.nav__options--right {
 }
 
 .item__button--semivisible-blue-highlight {
   margin: 0 0.5rem 0 0.8rem;
   position: relative;
   padding: 1rem 0;
-  bottom: 0.4rem;
+  bottom: 0.2rem;
   color: #70757a;
   font-size: 0.75rem;
   font-family: Roboto, HelveticaNeue, Arial, sans-serif;
@@ -90,22 +98,29 @@ a {
 }
 
 .item__button--blue {
-  padding-left: 0.6rem;
-  position: relative;
-  bottom: 0.5rem;
   color: #fff;
-  background: #3e77d8;
+  background: #2b7de9;
   display: inline-block;
-  width: 100%;
-  line-height: 2rem;
+  width: 75.9%;
   font-weight: bold;
+  border-radius: 5px;
+  padding: 0.18rem 0.75rem;
+  width: 3.12rem;
+  height: 1.68rem;
+  margin-left: 0.93rem;
+  line-height: 1.68rem;
+  font-family: Google Sans, Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 0.81rem;
+  letter-spacing: 0.25px;
+  text-align: center;
 }
 
 .item__icon--square {
   background-image: url(../resources/i1_1967ca6a.png);
   background-size: 528px 68px;
-  width: 30px;
-  height: 30px;
+  width: 1.87rem;
+  height: 1.87rem;
   box-sizing: border-box;
   display: inline-block;
   background-position: -127px -36px;
@@ -114,23 +129,4 @@ a {
   cursor: pointer;
   text-decoration: none;
   background-repeat: no-repeat;
-}
-
-.square-icon:hover {
-  opacity: 1;
-}
-
-#main-app {
-  text-align: center;
-  margin-top: 4rem;
-}
-
-li {
-  list-style: none;
-  display: inline-block;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
 }
