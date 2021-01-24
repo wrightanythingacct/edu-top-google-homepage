@@ -1,6 +1,10 @@
 /* TODO need to change IDs for classes using BEM */
+body {
+  font-family: Roboto, HelveticaNeue, Arial, sans-serif;
+}
 a {
   text-decoration: none;
+  color: inherit;
 }
 li {
   list-style: none;
@@ -61,19 +65,6 @@ ul {
   color: #1967d2;
 }
 
-/* TODO need to check if 900 px is enough for mobile design */
-@media (min-width: 900px) {
-  .searchbar__buttons {
-    display: block;
-  }
-  .item__button--blue:hover {
-    transform: scale(1.02);
-  }
-  .square-icon:hover {
-    opacity: 1;
-  }
-}
-
 .nav__options {
   display: flex;
   justify-content: space-between;
@@ -129,4 +120,47 @@ ul {
   cursor: pointer;
   text-decoration: none;
   background-repeat: no-repeat;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  color: #0000008a;
+  width: 100%;
+  background: #f2f2f2;
+}
+
+.footer__location {
+  padding: 0.5rem 0 0.6rem 1rem;
+  display: block;
+  font-size: 0.9rem;
+  border-bottom: 0.06rem solid black;
+  margin-bottom: 0.93rem;
+}
+
+.footer__item--hide-on-mobile {
+  display: none;
+}
+
+.footer__links {
+  text-align: center;
+}
+
+.footer__item {
+  padding: 0.4rem;
+  font-size: 0.81rem;
+}
+
+/* TODO need to check if 900 px is enough for mobile design */
+@media (min-width: 900px) {
+  .searchbar__buttons,
+  .footer__item--hide-on-mobile {
+    display: block;
+  }
+  .item__button--blue:hover {
+    transform: scale(1.02);
+  }
+  .square-icon:hover {
+    opacity: 1;
+  }
 }
