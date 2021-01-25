@@ -16,6 +16,7 @@ There are also other [alternatives for extracting .ico.](https://stackoverflow.c
 [StackOverFlow Reference 2](https://stackoverflow.com/questions/8084555/why-selecting-by-id-is-not-recommended-in-css)
 - [You can have the input be outside of the form element with the form attribute](https://stackoverflow.com/questions/7020659/submit-form-using-a-button-outside-the-form-tag/12567605#12567605)
 - [I modified the site to use BEM for improved readability and easier CSS](http://getbem.com/introduction/)
+- [How to remove the blue highlight of an input html when is focused](https://stackoverflow.com/questions/27949627/how-to-remove-required-highlights-in-html-firefox)
 
 ## Notes from Responsive design
 
