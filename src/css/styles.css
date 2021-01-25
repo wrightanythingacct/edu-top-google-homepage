@@ -52,6 +52,7 @@ ul {
 }
 
 .searchbar__options {
+  display: block;
   text-align: center;
   padding-top: 2rem;
 }
@@ -72,15 +73,19 @@ ul {
   margin: 0.4rem;
 }
 
-.item__button--semivisible-blue-highlight {
+.item__button {
   margin: 0 0.5rem 0 0.8rem;
   position: relative;
-  padding: 1rem 0;
+
   bottom: 0.2rem;
   color: #70757a;
   font-size: 0.75rem;
   font-family: Roboto, HelveticaNeue, Arial, sans-serif;
   font-weight: 600;
+}
+
+.item__button--semivisible-blue-highlight {
+  padding: 1rem 0;
   text-transform: uppercase;
 }
 
@@ -89,7 +94,7 @@ ul {
   border-bottom: 2px solid #4285f4;
 }
 
-.item__button--blue {
+.item__sign-in {
   color: #fff;
   background: #2b7de9;
   display: inline-block;
@@ -158,12 +163,35 @@ ul {
     display: none;
   }
   .desktop-visible-only {
-    display: inherit;
+    display: initial;
   }
-  .item__button--blue:hover {
+  .nav__options {
+    justify-content: end;
+  }
+
+  .item__button--semivisible-blue-highlight {
+    padding: inherit;
+    text-transform: inherit;
+  }
+
+  .item__button--semivisible-blue-highlight:hover {
+    color: inherit;
+    border-bottom: inherit;
+  }
+
+  .item__button {
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: initial;
+  }
+
+  .item__button:hover {
+    text-decoration: underline;
+  }
+
+  .item__sign-in:hover {
     transform: scale(1.02);
   }
-  .square-icon:hover {
+  .item__icon--square:hover {
     opacity: 1;
   }
 }
