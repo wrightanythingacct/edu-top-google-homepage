@@ -12,8 +12,11 @@
     <nav class="nav">
       <ul class="nav__options">
         <div class="nav__options nav__options--left">
-          <li class="nav__item">
-            <a class="item__icon item__icon--burguer-menu" href="#">
+          <li class="nav__item mobile-visible-only">
+            <a
+              class="item__icon item__icon--burguer-menu mobile-visibile-only"
+              href="#"
+            >
               <svg
                 style="fill: #70757a; width: 24px; height: 24px"
                 viewBox="0 0 24 24"
@@ -26,16 +29,20 @@
           </li>
           <li class="nav__item">
             <a
-              class="item__button item__button--semivisible-blue-highlight"
+              class="item__button item__button--semivisible-blue-highlight mobile-visible-only"
               href="#"
-              >ALL</a
+              >All</a
             >
           </li>
+          <li class="nav__item">
+            <a class="item__button desktop-visible-only" href="#">Gmail</a>
+          </li>
+
           <li class="nav__item">
             <a
               class="item__button item__button--semivisible-blue-highlight"
               href="#"
-              >IMAGES</a
+              >Images</a
             >
           </li>
         </div>
@@ -70,7 +77,7 @@
           <input class="searchbar__input" type="search" value="Hello world" />
         </div>
         <div class="searchbar__options">
-          <div class="searchbar__buttons">
+          <div class="searchbar__buttons desktop-visible-only">
             <button>Google Search</button>
             <button>I'm Feeling Lucky</button>
           </div>
@@ -94,7 +101,7 @@
           <li class="footer__item"><a href="#">Advertising</a></li>
           <li class="footer__item"><a href="#">Business</a></li>
           <li class="footer__item"><a href="#">About</a></li>
-          <li class="footer__item footer__item--hide-on-mobile">
+          <li class="footer__item desktop-visible-only">
             <a href="#">How Search works</a>
           </li>
         </div>

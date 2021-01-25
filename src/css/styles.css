@@ -81,6 +81,7 @@ ul {
   font-size: 0.75rem;
   font-family: Roboto, HelveticaNeue, Arial, sans-serif;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .item__button--semivisible-blue-highlight:hover {
@@ -138,7 +139,7 @@ ul {
   margin-bottom: 0.93rem;
 }
 
-.footer__item--hide-on-mobile {
+.desktop-visible-only {
   display: none;
 }
 
@@ -153,9 +154,11 @@ ul {
 
 /* TODO need to check if 900 px is enough for mobile design */
 @media (min-width: 900px) {
-  .searchbar__buttons,
-  .footer__item--hide-on-mobile {
-    display: block;
+  .mobile-visible-only {
+    display: none;
+  }
+  .desktop-visible-only {
+    display: inherit;
   }
   .item__button--blue:hover {
     transform: scale(1.02);
