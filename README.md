@@ -14,13 +14,13 @@ There are also other [alternatives for extracting .ico.](https://stackoverflow.c
 - IDs should be used mostly when describing a large section of the page, usually combined with section or div element. For all other cases it's better to use classes as it makes selectors easier, also to prevent having multiple IDs which is forbidden and we should only use one ID.
 [StackOverFlow Reference 1](https://stackoverflow.com/questions/43074167/why-id-has-stronger-meaning-than-class-in-css-styling-even-if-declared-before-th)
 [StackOverFlow Reference 2](https://stackoverflow.com/questions/8084555/why-selecting-by-id-is-not-recommended-in-css)
-- [You can have the input be outside of the form element with the form attribute](https://stackoverflow.com/questions/7020659/submit-form-using-a-button-outside-the-form-tag/12567605#12567605)
-- [I modified the site to use BEM for improved readability and easier CSS](http://getbem.com/introduction/)
-- [How to remove the blue highlight of an input html when is focused](https://stackoverflow.com/questions/27949627/how-to-remove-required-highlights-in-html-firefox)
+- [You can have the input be outside of the form element with the form attribute.](https://stackoverflow.com/questions/7020659/submit-form-using-a-button-outside-the-form-tag/12567605#12567605)
+- [I modified the site to use BEM for improved readability and easier CSS.](http://getbem.com/introduction/)
+- [How to remove the blue highlight of an input html when is focused.](https://stackoverflow.com/questions/27949627/how-to-remove-required-highlights-in-html-firefox)
 
 ## Notes from Responsive design
 
-[https://dev.to/jharteaga/px-em-rem-viewport-how-to-know-which-one-to-use-in-css-for-responsive-design-4jbi]
+[From Jharteaga dev.to article](https://dev.to/jharteaga/px-em-rem-viewport-how-to-know-which-one-to-use-in-css-for-responsive-design-4jbi)
 
 - No use of inches, points, cms and mms unless is printing physical
 - Px = thin lines on borders for example, or the exact size of an image so it doesn't get scaled(although for that is better physical units for printing) since they aren't responsive and consistent and sometimes interfere with Zoom functionality.
@@ -34,9 +34,11 @@ There are also other [alternatives for extracting .ico.](https://stackoverflow.c
 
 ### SVG Study
 
+[From w3schools](https://www.w3schools.com/graphics/svg_inhtml.asp)
+
 - The value of the viewBox attribute for SVG elements, is a list of four numbers: min-x, min-y, width and height.
 - SVG defines the graphics in XML format
-- Example of SVG and explanation by [https://www.w3schools.com/graphics/svg_inhtml.asp]
+- Example of SVG and explanation by
   - The ```<circle>``` element is used to draw a circle
   - The cx and cy attributes define the x and y coordinates of the center of the circle. If cx and cy are not set, the circle's center is set to (0, 0)
   - The r attribute defines the radius of the circle
@@ -70,7 +72,7 @@ There are also other [alternatives for extracting .ico.](https://stackoverflow.c
   - A = elliptical Arc
   - Z = closepath
 
-#### Info from [https://css-tricks.com/scale-svg/](CSS Tricks)
+#### Info from [CSS Tricks](https://css-tricks.com/scale-svg/)
 
 - In HTML SVG is treated like a document, just like:
 
@@ -80,17 +82,17 @@ There are also other [alternatives for extracting .ico.](https://stackoverflow.c
   <iframe>
 ```
 
-the default size for this elements is 300x15, but can vary between different browsers.
+- The default size for this elements is 300x15, but can vary between different browsers.
 
 - The ways you will need scale a SVG is:
-  - Scaling to fit a certain size, without distorting the image
-  - Scaling to fit a certain size, stretching or compressing the graphic as necessary
-  - Scaling to fit the available width, while maintaining the width-to-height aspect ratio
-  - Scaling in non-uniform ways, so that some parts of the graphic scale differently from others
+  - Scaling to fit a certain size, without distorting the image.
+  - Scaling to fit a certain size, stretching or compressing the graphic as necessary.
+  - Scaling to fit the available width, while maintaining the width-to-height aspect ratio.
+  - Scaling in non-uniform ways, so that some parts of the graphic scale differently from others.
 
-- You should use a combination of height and width with viewBox attr
-  - it defines the aspect ratio of the image
-  - it defines how all the values on the SVG should be scaled to fit the total space available
-  - it defines the origin of the SVG coordinate
+- You should use a combination of height and width with viewBox attr:
+  - it defines the aspect ratio of the image.
+  - it defines how all the values on the SVG should be scaled to fit the total space available.
+  - it defines the origin of the SVG coordinate.
   
-- Is normal that viewBox makes the SVG bigger if the width is smaller [https://stackoverflow.com/questions/40588228/why-when-making-the-viewbox-smaller-does-my-svg-get-bigger]
+#### [Is normal that viewBox makes the SVG bigger if the width is smaller.](https://stackoverflow.com/questions/40588228/why-when-making-the-viewbox-smaller-does-my-svg-get-bigger)
