@@ -9,65 +9,105 @@
     <link rel="stylesheet" href="src/css/styles.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <ul>
-        <li><a href="#">Gmail</a></li>
-        <li><a href="#">Images</a></li>
-        <li><a href="#" class="square-icon"></a></li>
-        <li><a href="#" class="blue-button">Sign in</a></li>
+    <nav class="nav">
+      <ul class="nav__options">
+        <div class="nav__options nav__options--left">
+          <li class="nav__item mobile-visible-only">
+            <a
+              class="item__icon item__icon--burguer-menu mobile-visibile-only"
+              href="#"
+            >
+              <svg
+                style="fill: #70757a; width: 24px; height: 24px"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+              </svg>
+            </a>
+          </li>
+          <li class="nav__item">
+            <a
+              class="item__button item__button--semivisible-blue-highlight mobile-visible-only"
+              href="#"
+              >All</a
+            >
+          </li>
+          <li class="nav__item">
+            <a class="item__button desktop-visible-only" href="#">Gmail</a>
+          </li>
+
+          <li class="nav__item">
+            <a
+              class="item__button item__button--semivisible-blue-highlight"
+              href="#"
+              >Images</a
+            >
+          </li>
+        </div>
+        <div class="nav__options nav__options--right">
+          <li class="nav__item">
+            <a class="item__icon item__icon--square" href="#"></a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="item__sign-in">Sign in</a>
+          </li>
+        </div>
       </ul>
     </nav>
-
-    <div id="main-app">
-      <img id="main-logo" src="src/resources/googlelogo_color_272x92dp.png" />
-      <div>
-        <svg
-          focusable="false"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          id="search-icon"
-        >
-          <path
-            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
-          ></path>
-        </svg>
-        <input
-          type="search"
-          id="search-bar"
-          value="Hit Google Search if you want to see the Search Results Page"
-        />
-      </div>
-      <div>
-        <div id="search-buttons">
-          <button>Google Search</button>
-          <button>I'm Feeling Lucky</button>
+    <main class="main">
+      <img
+        class="main__logo"
+        src="src/resources/googlelogo_color_272x92dp.png"
+      />
+      <form class="main__searchbar">
+        <div class="searchbar__control">
+          <div class="searchbar__icon">
+            <svg
+              focusable="true"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 19 19"
+            >
+              <path
+                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+              ></path>
+            </svg>
+          </div>
+          <input class="searchbar__input" type="search" value="Hello world" />
         </div>
-        <!-- TODO I was thinking I could play with JS in the future here so it changes all text to I'm groot -->
-        <span id="offered-language"
-          >Google offered in: <a href="#">Groot</a></span
-        >
-      </div>
-    </div>
-
-    <footer>
-      <div>
+        <div class="searchbar__options">
+          <div class="searchbar__buttons desktop-visible-only">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+          </div>
+          <span class="searchbar__offered-language"
+            >Google offered in: <a href="#">Groot</a></span
+          >
+        </div>
+      </form>
+    </main>
+    <footer class="footer">
+      <div class="footer__location">
         <span>Far far away</span>
       </div>
-      <div id="footer-links">
-        <ul>
-          <div id="footer-info-1">
-            <li><a href="#">Advertising</a></li>
-            <li><a href="#">Business</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">How Search works</a></li>
-          </div>
-          <div id="footer-info-2">
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Settings</a></li>
-          </div>
-        </ul>
-      </div>
+      <ul class="footer__links">
+        <div class="footer__links footer__links--right">
+          <li class="footer__item"><a href="#">Settings</a></li>
+          <li class="footer__item footer__item--desktop-only-order">
+            <a href="#">Privacy</a>
+          </li>
+          <li class="footer__item"><a href="#">Terms</a></li>
+        </div>
+        <div class="footer__links footer__links--left">
+          <li class="footer__item"><a href="#">Advertising</a></li>
+          <li class="footer__item"><a href="#">Business</a></li>
+          <li class="footer__item"><a href="#">About</a></li>
+          <li class="footer__item desktop-visible-only">
+            <a href="#">How Search works</a>
+          </li>
+        </div>
+      </ul>
     </footer>
   </body>
 </html>
