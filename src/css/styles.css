@@ -162,7 +162,7 @@ ul {
     display: initial;
   }
   .nav__options {
-    justify-content: end;
+    justify-content: flex-end;
   }
 
   .item__button--semivisible-blue-highlight {
